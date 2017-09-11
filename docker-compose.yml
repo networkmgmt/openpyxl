@@ -1,8 +1,7 @@
 version: '3'
 services:
   python:
-    build: ./openpyxl/
-    image: networkmgmt/openpyxl:3.6
+    image: networkmgmt/openpyxl
     volumes:
       - ./openpyxl/codes:/var/openpyxl/codes
       - ./tmp:/var/openpyxl/tmp
