@@ -5,4 +5,4 @@ services:
     volumes:
       - ./openpyxl/codes:/var/openpyxl/codes
       - ./tmp:/var/openpyxl/tmp
-    command: python /var/openpyxl/codes/samples/createfile.py
+    command: /var/openpyxl/codes/samples/createfile.py
