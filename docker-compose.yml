@@ -3,6 +3,6 @@ services:
   python:
     image: networkmgmt/openpyxl
     volumes:
-      - ./openpyxl/codes:/var/openpyxl/codes
+      - ./codes:/var/openpyxl/codes
       - ./tmp:/var/openpyxl/tmp
     command: /var/openpyxl/codes/samples/createfile.py
